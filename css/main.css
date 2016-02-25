@@ -1,0 +1,278 @@
+
+header {
+padding: 15px 0;
+margin: 0px;
+color: silver;
+border-bottom: solid #17B7AD 1px;
+background: black;
+}
+
+header nav ul:not(.portafolio)  {
+list-style-type: none;
+padding-top: 34px;
+margin-top: -60px;
+float: right;
+font-size: 14px;
+line-height: 14px;
+text-transform: uppercase;
+white-space: nowrap;
+}
+
+header nav li:not(.portafolio) {
+	/* style */
+position: relative;
+float: left;
+margin: 0;
+padding: 0;
+}
+
+header nav li:hover a:not(.portafolio) {
+
+color: #2EFEF7;
+}
+header nav a:not(.portafolio)  {
+text-decoration: none;
+padding: 10px 15px;
+color: #eee;
+text-shadow: 2px 2px 4px #000;
+}
+header nav a:hover:not(.portafolio)  {
+color: #fff;
+}
+
+.text-left {
+
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.hero h4 {
+
+	display: inline-block;
+	position: relative;
+	margin-left: 20px;
+}
+
+
+.fondo {
+
+	background-image: url(../img/hero.jpg);
+	width: 100%;  
+	height: 1000px;
+}
+
+
+
+.iconos h3 {
+
+	color: gray;
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+	position: relative;
+	top: 100px;
+
+}
+
+.iconos p {
+	color: gray;
+	font-size: 14px;
+	font-family: Arial;
+	text-align: center;
+	position: relative;
+	top: 160px;
+
+}
+
+.iconos i {
+
+	position: relative;
+	left: 150px;
+	top: 30px;
+	color: #00BFFF;
+	top: 90px;
+}
+
+.mm .iconos h3 {
+	color: gray;
+	font-family: Arial;
+	text-align: center;
+	position: relative;
+	top: 200px;
+
+}
+
+.mm .iconos p {
+	color: gray;
+	font-size: 14px;
+	font-family: Arial;
+	text-align: center;
+	position: relative;
+	top: 250px;
+
+}
+.mm .iconos i{
+
+	position: relative;
+	left: 155px;
+	top: 30px;
+	color: #00BFFF;
+	top: 200px;
+}
+
+.mt {
+
+	margin-top: 120px;
+}
+
+.lap {
+
+	background-image: url(../img/laptop-features.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 400px;
+	position: relative;
+	top: 100px;
+	left: 200px;
+	margin-bottom: 50px;
+}
+
+.lap h1 {
+	
+	position: relative;
+	text-align: center;
+	bottom: 20px;
+	top:-80px;
+	font-family: Arial;
+}
+
+.icons2 {
+
+	position: relative;
+	margin-top: 150px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.icons2 i {
+
+	color: #00BFFF;
+	position: absolute;
+	float: left;
+	left: 50px;
+}
+
+.icons2 p {
+
+	font-size: 12px;
+	color: gray;
+	text-align: justify;
+	position: absolute;
+	float: left;
+	width: 350px;
+	top: 30px;
+	left: 135px;
+
+}
+
+.icons2 i h3 {
+
+	color: gray;
+	font-size: 20px;
+	position: relative;
+	float: right;
+	left: 35px;
+}
+
+
+.pqt .col-3 {
+	background-color: white;
+	height: 500px;
+	border: 1px solid gray;
+	margin-left: 10px;
+	top: 50px;
+	left: 115px;
+	position: relative;
+ 	box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.73);
+	box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.73);
+	box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.73);
+
+}
+
+.pqt .dentro {
+
+	background-color: #25253b;
+	height: 80px;
+	margin-top: 20px;
+}
+.pqt .prm {
+
+	background-color: #00BFFF;
+	height: 80px;
+	margin-top: 20px;
+}
+.pqt h2 {
+	color: white;
+	text-align: center;
+	top: 20px;
+	position: relative;
+	font-family: arial;
+}
+
+.pqt .abajo {
+	background-color: #D8D8D8;
+	height: 100px;
+	margin-top: -20px;
+	position: relative;
+}
+
+.abajo p {
+
+	color: #25253b;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	font-family: Arial;
+
+}
+
+span {
+
+	font-size: 24px;
+	font-family: arial;
+}
+
+.col-3 p {
+
+	text-align: center;
+	color: gray;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: Arial;
+	font-size: 10px;
+}
+
+.boton input {
+
+	background-color: #25253b;
+	background-repeat: no-repeat;
+	
+	position: relative;
+	top: 20px;
+	right: -65px;
+	width: 120px;
+	height: 30px;
+	color: silver;
+}
+
+.pt-2{
+	padding-top: 1%;
+}
+/*nuevo css  */
+
+
+.portafolio {
+
+	margin-top: 100px;
+}
